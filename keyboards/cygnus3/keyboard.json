@@ -24,7 +24,11 @@
         "vid": "0xFEED"
     },
     "split": {
-        "enabled": true
+        "enabled": true,
+        "serial": {
+            "driver": "vendor",
+            "pin": "GP17"
+        }
     },
     "layouts": {
         "LAYOUT": {
