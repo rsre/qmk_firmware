@@ -26,8 +26,7 @@
     "split": {
         "enabled": true,
         "serial": {
-            "driver": "vendor",
-            "pin": "GP17"
+            "driver": "vendor"
         }
     },
     "layouts": {
