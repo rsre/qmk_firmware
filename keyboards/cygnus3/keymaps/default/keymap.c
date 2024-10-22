@@ -25,10 +25,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      	KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B,
 		_______, _______, _______,KC_CAPS, KC_LSFT, KC_ENT,
 
-		KC_7, KC_8, KC_9, KC_0, KC_BSLS, KC_BSPC,
-     	KC_Y, KC_U, KC_I, KC_O, KC_P, KC_BSLS,
-     	KC_H, KC_J, KC_K, KC_L, KC_SEMICOLON, KC_QUOTE,
-     	KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH, KC_GRV,
-		KC_CAPS, KC_RSFT, KC_ENT, _______, _______, _______
+		KC_7,   KC_8,   KC_9,     KC_0,    KC_MINS, KC_EQL,
+     	KC_Y,   KC_U,   KC_I,     KC_O,    KC_P,    KC_BSLS,
+     	KC_H,   KC_J,   KC_K,     KC_L,    KC_SCLN, KC_QUOTE,
+     	KC_N,   KC_M,   KC_COMMA, KC_DOT,  KC_SLSH, KC_GRV,
+		KC_ENT, KC_SPC, KC_RCTL,  _______, _______, _______
     ), // test with KC_CAPS, KC_A, QK_BOOT
 };
